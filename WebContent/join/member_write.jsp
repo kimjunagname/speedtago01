@@ -117,6 +117,7 @@
 					
 					<!-- table 선언 -->
 					<form name ="joinform" method="post" action="">
+<<<<<<< HEAD
 					<input type="hidden" name="act" value="register">
 	 
 					<table class="table table-striped" style="table-layout: fixed; width:800px; height: 15px;">
@@ -300,3 +301,130 @@
 <!-- -------------하단분리------------------------- -->
 <%@ include file="/menu/bottom.jsp"%>
 <!-- -------------------------------------------- -->
+=======
+					<table class="table table-striped" style="table-layout: fixed; width:800px; height: 15px;">
+						<!-- 컬럼 크기 조절 -->
+						<colgroup>
+    						<col style="width: 25%; "/>
+   							<col style="width: 25%; "/>
+    					    <col style="width: 25%; "/>
+    					    <col style="width: 25%; "/>
+    					    <col /> 
+  						</colgroup>
+						
+						<tr>
+							<td>이름</td>
+							<td colspan="3"><input type="text" id="name" name="name" value="" size="12"></td>
+						</tr>
+						<tr>
+							<td>아이디</td>
+							<td colspan="2">
+								<input type="text" id="id" name="id" value="" size="12" style="text-align: left;">
+							</td>
+							
+							<td>
+								<button type="button" class="btn btn-primary btn-sm" onkeyup="javascript:idcheck();">아이디 중복검사</button>
+							</td>
+						</tr>
+
+						<tr>
+							<td>비밀번호</td>
+							<td colspan="3">
+								<input type="password" id="pass" name="pass" size="12" maxlength="12"style="text-align: left;">
+							</td>
+						</tr>
+						
+						<tr>
+							<td>비밀번호 확인</td>
+							<td colspan="3">
+								<input type="password" id="passcheck" name="passcheck" id="passcheck" size="12" maxlength="12" style="text-align: left;">
+							</td>
+						</tr>
+
+						<tr>
+							<td class="td1">휴대폰</td>
+							<td>
+								<select class="td3" id="tel1" name="tel1" value="" size="1" maxlength="3" style="width:180px; height: 60px;">
+									<option value="010" >010</option>
+									<option value="011" >011</option>
+									<option value="016" >016</option>
+									<option value="017" >017</option>
+									<option value="018" >018</option>
+								</select> 
+							</td>
+							<td> 
+							   <input class="td3" type="text" id="tel2" name="tel2" value="" size="4" maxlength="4" >  
+							</td>
+							<td>
+							   <input class="td3" type="text" id="tel3" name="tel3" value="" size="4" maxlength="4" >
+						 	</td>
+						</tr>
+						<tr>
+							<td>이메일</td>
+							<td colspan="3">
+								<input type="text" id="mail" name="mail" style="text-align: left;">
+							</td>
+						</tr>
+
+						<tr>
+							<td>우편번호</td>
+							<td colspan="2">
+								<input type="text" id="zipcode" name="zipcode" size="5"	maxlength="5" style="text-align: left;"	readonly="readonly" onclick="javascript:openzip();">
+							</td>
+							
+							<td>
+								<button type="button" class="btn btn-primary btn-sm" onclick="javascript:sample4_execDaumPostcode();">우편번호 검색</button>
+							</td>
+						</tr>
+						
+						
+						<tr>
+							<td>주소</td>
+							<td colspan="3">
+								<input type="text" id="addr1" name="addr1" style="text-align: left; ">
+							</td>
+						</tr>
+						
+						<tr>
+							<td>상세주소</td>
+							<td colspan="3">
+								<input type="text" id="addr2" name="addr2" style="text-align: left; ">
+							</td>
+						</tr>
+						
+						<tr>
+							<td>이메일</td>
+							<td >
+								<input type="text" name="email1" id="email1" style="width:300px;">
+							</td>
+							<td>
+								<font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@</font>
+							</td>
+							<td colspan="2">
+								<select name="email2" id ="email2" size="1" style="width:180px; height:60px;">
+									<option value="naver.com">naver.com</option>
+									<option value="hanmail.net">hanmail.net</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" colspan="2"><input type="button" value="가입" onclick="javascript:join();">
+							</td>
+							<td align="right" colspan="2"><input type="reset" value="취소" >
+							</td>
+						</tr>
+					</table>
+				</form>
+				</div>
+			</div>
+		</div>
+</section>
+
+
+
+<!-- Footer -->
+<!-- -------------하단분리------------------------- -->
+<%@ include file="/menu/bottom.jsp"%>
+<!-- -------------------------------------------- -->
+
+>>>>>>> branch 'master' of https://github.com/kimjunagname/speedtago01.git
