@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
     <wb-module deploy-name="speedtago">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+<<<<<<< HEAD
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+=======
+>>>>>>> branch 'master' of https://github.com/kimjunagname/speedtago01.git
         <property name="context-root" value="speedtago"/>
         <property name="java-output-path" value="/speedtago/build/classes"/>
     </wb-module>

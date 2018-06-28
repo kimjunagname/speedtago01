@@ -1,12 +1,23 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
+<<<<<<< HEAD
 		<!-- Header -->
 		<!-- ---------------상단 고정-------------------- -->
 		<%@ include file="/menu/top.jsp" %>
 		<!-- ----------------------------------------- -->
 		<br> <br> <br> <br> <br> <br> <br>
 		<br> <br> <br>
+=======
+
+		<!-- Header -->
+		<!-- ---------------상단 고정-------------------- -->
+		<%@ include file="/menu/top.jsp" %>
+		<!-- ----------------------------------------- -->
+		<br> <br> <br> <br> <br> <br> <br>
+		<br> <br> <br>
+
+>>>>>>> branch 'master' of https://github.com/kimjunagname/speedtago01.git
 
 		<!-- ---------------------------------------- Banner : 베너 start ---------------------------------------- -->
 		<!-- Banner : Bootstrap Carousel Function -->
